@@ -2,8 +2,8 @@ name: Release
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "graph-[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
   release:
